@@ -1,4 +1,20 @@
 Description:
 
-Now you have a menu page for your cafeteria. For this assignment, please add an interactive order form for food items, which includes validation checks for each item's quantity.
-You can add the order form on your menu page or create a separate order page. Keep it real and make it great!
+Now that you have a working menu page, Assignment 4&5 requires you to implement a backend to handle the interactive order form. Using Node.js and Express, you will set up a basic server to manage POST and GET requests.
+This involves processing form data to calculate the total amount of an order upon submission and serving your order confirmation web page.
+
+Note: If the calculation of the total amount has previously been implemented on the frontend, you are required to shift this functionality to the backend. 
+
+Make sure the server-side logic is robust and functional!
+
+note:
+
+Assignments 4 and 5 will be combined into one single submission.
+
+Assignment 4 outcome
+
+to implement a backend to handle the interactive order form. Using Node.js and Express, you will set up a basic server to manage POST and GET requests. This involves processing form data to calculate the total amount of an order upon submission and serving your order confirmation web page.
+
+ Assignment 5:
+
+Make your final web application ready
