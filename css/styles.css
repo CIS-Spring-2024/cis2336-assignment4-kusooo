@@ -1,0 +1,302 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#owner-bio img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#owner-bio h2 {
+  text-align: center;
+}
+
+#owner-bio h3 {
+  text-align: center;
+}
+
+/* Reset styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#hero,
+#specials,
+#about {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#hero h2,
+#specials h2,
+#about h2 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #e0b37c;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#hero img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+#specials img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+#about img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Menu Styles */
+#menu {
+  padding: 50px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-item {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.menu-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.menu-item p {
+  color: #777;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .menu-item {
+      flex-basis: calc(50% - 40px);
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-item {
+      flex-basis: calc(100% - 40px);
+  }
+}
+
+/* Add CSS styles for the order form as needed */
+.order-form {
+  margin-top: 10px;
+}
+
+.order-form label {
+  font-weight: bold;
+}
+
+.order-form input[type="number"] {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.order-form button {
+  background-color: #f8c88d;
+  color: #333;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.order-form button:hover {
+  background-color: #e0ac00;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
